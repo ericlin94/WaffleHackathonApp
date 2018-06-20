@@ -17,6 +17,7 @@ Run the program:
 ```
 I) close duplicated issues 
 ```
+```
 II) When there's a pull request, if the title don't have correct format, it will not pass, for correct formating, see below:
 ```
 <strong>Pull Request Title Prefix</strong><br>
@@ -32,7 +33,7 @@ II) When there's a pull request, if the title don't have correct format, it will
 III)Find the similar issue when you create new issue:
 first create first issue, then create second issue with similar content.
 So it will show up that there is a similar issue to the one you just create.
-
+```
 # Build with
 
 Probot API
