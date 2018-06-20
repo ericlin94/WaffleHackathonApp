@@ -4,17 +4,18 @@
 
 Install required dependencies:
  
-  ```
-npm install
-```
-Run the program: 
- ```
-npm start
-```
+  npm install
 
-Find similar issue when you create a new issue:
-first create a issue, then create second one with similar content.
-It will pop up that they are alike and a link to the first one from second one.
+Run the program: 
+ 
+ npm run dev 
+
+
+# Functionalities
+
+I) close duplicated issues 
+
+II) When there's a pull request, if the title don't have correct format, it will not pass, for correct formating, see below:
 
 <strong>Pull Request Title Prefix</strong><br>
   "fix" - fix the bug<br>
