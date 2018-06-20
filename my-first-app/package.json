@@ -20,6 +20,7 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
+    "nodemailer": "^4.6.7",
     "probot": "^6.0.0"
   },
   "devDependencies": {
@@ -30,6 +31,14 @@
   },
   "engines": {
     "node": ">= 8.3.0"
+  },
+  "config": {
+    "prefix": {
+      "types": [
+        "fix",
+        "test"
+      ]
+    }
   },
   "standard": {
     "env": [
