@@ -1,6 +1,6 @@
 # WaffleHackathonApp
 
-<strong>Pull Request Title Prefix</strong><br>
+<strong>Pull Request Title Prefix</strong><br><br>
   "fix" - fix the bug<br>
   "feat" - new feature<br>
   "docs" - document<br>
