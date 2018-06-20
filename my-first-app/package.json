@@ -36,6 +36,11 @@
     "prefix": {
       "types": [
         "fix",
+        "feat",
+        "docs",
+        "style",
+        "close",
+        "release",
         "test"
       ]
     }
