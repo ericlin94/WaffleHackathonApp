@@ -19,7 +19,7 @@ I) close duplicated issues
 ```
 ```
 II) When there's a pull request, if the title don't have correct format, it will not pass.
-for correct formating, see below:
+For correct formating, see below:
 ```
 <strong>Pull Request Title Prefix</strong><br>
   "fix" - fix the bug<br>
