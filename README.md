@@ -12,6 +12,10 @@ Run the program:
 npm start
 ```
 
+Find similar issue when you create a new issue:
+first create a issue, then create second one with similar content.
+It will pop up that they are alike and a link to the first one from second one.
+
 <strong>Pull Request Title Prefix</strong><br>
   "fix" - fix the bug<br>
   "feat" - new feature<br>
