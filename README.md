@@ -3,10 +3,12 @@
 # Setup
 
 Install required dependencies:
+ 
   npm install
 
 Run the program: 
-  npm run dev
+ 
+ npm run dev
 
 <strong>Pull Request Title Prefix</strong><br>
   "fix" - fix the bug<br>
