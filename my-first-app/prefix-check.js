@@ -34,7 +34,7 @@ async function prefixCheck (context) {
     await context.github.repos.createStatus(context.repo({
       sha: pr.head.sha,
       state: newStatus,
-      target_url: 'https://github.com/apps/wip',
+      target_url: 'https://github.com/ericlin94/WaffleHackathonApp/blob/master/README.md',
       description: match ? 'ready for review' : 'Invalid Title Prefix',
       context: 'Invalid Title Format'
     }))
