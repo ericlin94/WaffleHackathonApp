@@ -32,4 +32,4 @@ So it will show up that there is a similar issue to the one you just create.
   "test" - test the code<br><br>
 <strong>Note:</strong> pull request must follow the format with these prefix follw by : ex. fix:[title], ortherwise the request check can cause error.
 ======================
-test2
+test3
