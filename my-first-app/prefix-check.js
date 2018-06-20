@@ -17,7 +17,7 @@ async function prefixCheck (context) {
   if (match(pr.title)) {
     newStatus = 'success'
     var text = patt.exec(pr.head.ref)
-    if (text.index === 0 && !(pr.title.indexOf(text.toString()) >= 0)) {
+    if (text!=null&&text.index === 0 && !(pr.title.indexOf(text.toString()) >= 0)) {
       await context.github.pullRequests.update(context.repo({
         number: pr.number,
         title: pr.title + ' close ' + text.toString()

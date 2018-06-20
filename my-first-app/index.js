@@ -43,7 +43,7 @@ module.exports = app => {
 		});
 		var mailOptions = {
 		  from: 'issuehunter18@gmail.com',
-		  to: user.data.email,
+		  to:'shengzhizhou1996@gmail.com' ,//user.data.email,
 		  subject: 'Similar issue to:',
 		  text: 'Duplicate issue'+result.html_url
 		};
@@ -59,7 +59,7 @@ module.exports = app => {
 		reviewSimilarIssue(result,context,theIssue);
 
 		/*Create Comment*/
-	   	return context.github.issues.createComment(params)
+	   	return context.github.issues.createComment(params)+context.github.issues.addLabels(context.issue({labels:["likelyduplicate"]}))
   	
   	}
   	
