@@ -28,7 +28,7 @@ module.exports = app => {
   	}
   	app.log(theIssue)
   	app.log(similarScore)
-  	if(similarScore>0.4&&result!==undefined){
+  	if(similarScore>=0.50&&result!==undefined){
   		/*Comment Parameter*/
   		const params = context.issue({body: 'Likely similar to #'+result.number})
 
