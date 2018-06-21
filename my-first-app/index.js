@@ -26,8 +26,8 @@ module.exports = app => {
   			similarScore=JaroWinkler.Distance(theIssue.body,otherIssues[i].body )
   		}
   	}
-
-  	
+  	app.log(theIssue)
+  	app.log(similarScore)
   	if(similarScore>0.4&&result!==undefined){
   		/*Comment Parameter*/
   		const params = context.issue({body: 'Likely similar to #'+result.number})
@@ -43,7 +43,7 @@ module.exports = app => {
 		});
 		var mailOptions = {
 		  from: 'issuehunter18@gmail.com',
-		  to:'shengzhizhou1996@gmail.com' ,//user.data.email,
+		  to: user.data.email,
 		  subject: 'Similar issue to:',
 		  text: 'Duplicate issue'+result.html_url
 		};
